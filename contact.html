@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+
+        .head{
+            background: url(image//head.jpg);
+            height: 100px;
+        }
+        .cnt{
+            
+            padding-top: 5%;
+            font-size: 40px;
+            font-family: 'Times New Roman';
+            font-weight: bold;
+            color: #fff;
+        }
+        .qt{
+            font-size: 10px;
+            font-family: Arial;
+            color: #fff;
+            padding-bottom: 10px;
+        }
+        .form{
+            font-size: 25px;
+            color: #fff;
+            padding-left: 20px;
+            padding-top: 10px;
+            background-color:rgba(10, 250, 250,0.1);
+            height: 700px;
+            width: 500px;
+            border-right: 1px solid white;
+        }
+        .main{
+            background-color:rgba(0,0, 0, 0.9);
+            height: 100%;
+        
+        }
+        .b1{
+           color: black;
+           background-color: white; 
+           border: white;
+           border-radius: 5px;
+            font-weight: bold;
+        }
+        .b2{
+            color: black;
+            background-color: white; 
+            border: white;
+            border-radius: 5px;
+             font-weight: bold;
+         }
+         .b1:hover{
+            background-color: tomato; 
+            border: tomato;
+            color:#fff;
+         }
+         .b2:hover{
+            background-color: tomato; 
+            border: tomato;
+            color:#fff;
+         }
+
+        .content{
+            display: flex;
+        }
+        .cncts{
+            padding-left: 10%;
+            padding-top: 10px;
+            color: #fff;
+            font-size: 20px;
+            text-decoration: none;
+        }
+        .icon{
+            width: 200px;
+            float: left;
+            height: 70px;
+        }
+        .logo{
+            color: #ff7200;
+            font-size: 37px;
+            font-family: Arial;
+            margin-left: 5px;
+            margin-top: 13px;
+        }
+        .search{
+            float: left;
+            width: 330px;
+            margin-left: 350px;
+        }    
+        .sear{
+            height: 40px;
+            width: 200px;
+            font-family: 'Times New Roman';
+            background: transparent;
+            border: 1px solid #ff7200;
+            margin-top: 13px; 
+            color: white;
+            border-right: none;
+            font-size: 16px;
+            float: left;
+            padding: 10px;
+            border-bottom-left-radius: 5px;
+            border-top-left-radius: 5px;   
+        }
+        .btn{
+            width: 100px;
+            height: 40px;
+            background: #ff7200;
+            border: 2px solid #ff7200;
+            margin-top: 13px;
+            color: #fff;
+            font-size: 15px;
+            border-top-right-radius: 5px;
+            border-bottom-right-radius: 5px;
+        }
+        .btn:focus{
+            outline: none;
+        }
+        .sear:focus{
+            outline: none;
+        }
+        .menu{
+            float: left;
+            width: 400px;
+            height: 70;
+        }
+        .btns{
+            float: left;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-left: 250px;
+            margin-top: 26px;
+            list-style: none;
+        }
+        .btns li a{
+            text-decoration: none;
+            margin-left: 60px;
+            margin-top: 25px;
+            font-size: 17px;
+            font-family: arial;
+            font-weight: bold;
+            color: white;
+        }
+        .btns li a:hover{
+            color: #ff7200;
+        }
+        .cns{
+            padding-right: 20px;
+            padding-bottom: 20px;
+        }
+        
+
+    </style>
+</head>
+<body>
+    <form >
+    <div class="main">
+        <div class="head">  
+                <div class="icon">
+                    <h2 class="logo">PortFolio</h2>
+                </div>
+                <div class="menu">
+                    <ul class="btns">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="cv.html">CV</a></li>
+                        <li><a href="project.html">Project</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        
+                    </ul>
+                </div>
+                <div class="search">
+                    <input type="search" class="sear" placeholder="Type To Text">
+                    <a href="#"><button class="btn">Search</button></a>
+        
+                </div>      
+            
+        </div>
+        <div class="content">
+        <div class="form">
+            <div class="cns">
+                <h1 class="cnt">CONTACT US</h1>
+            <h6 class="qt">
+                Please fill the form in a decent manner
+            </h6>
+            <hr>
+            </div>
+            <div class="email">
+                <label for="email">Email *</label>
+                <br>
+                <input type="text" class="eml" style="background: rgba(255,255,255,.05); color:#fff; width: 200px;" placeholder="Email" >
+            </div>
+            <br>
+            <div class="fname">
+                <label for="fname">Name *</label>
+                <br>
+                <input type="text" class="fnm" style="background: rgba(255,255,255,.05); color:#fff; width: 200px;" placeholder="Firstname" >
+                <input type="text" class="lnm" style="background: rgba(255,255,255,.05); color:#fff; width: 200px;" placeholder="Lastname" >
+            </div>
+            <br>
+            <div class="pn">
+                <label for="pn">Phone Number</label>
+                <br>
+                <input type="number" class="eml" style="background: rgba(255,255,255,.05); color:#fff; width: 200px;" placeholder="Phone Number" >
+            </div>
+            <br>
+            <div class="msg">
+                <label for="msg">Message *</label>
+                <br>
+                <textarea class="mg" style="background: rgba(255,255,255,.05); color:#fff; width: 400px; height:120px" placeholder="Enter Email" > </textarea>
+            </div>
+            <br>
+            <div class="button">
+                <form >
+                <input type="Submit" class="b1" style="height:30px; width:105px; margin:30px">
+                <input type="Reset" class="b2" style="height:30px; width:105px; margin:30px">
+                </form>
+            </div>
+        </div>
+        
+        <div class="cncts">    
+           
+            
+        </div>
+        </div>
+    </div>
+    </form>
+</body>
+</html>

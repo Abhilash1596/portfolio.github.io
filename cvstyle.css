@@ -1,0 +1,166 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.cv{
+    display: flex;
+    height: 29.7cm;
+    width: 21cm;
+    border: 1px solid black;
+}
+.img{
+    border-radius: 50%;
+}
+.pic{
+    padding-top: 10px;
+    padding-left: 20px;
+}
+.dob{
+    padding-top: 10px;
+    
+}
+.left{
+    width: 35%;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+}
+.right{
+    width: 65%;
+    padding-left: 10px;
+    padding-right: 20px;
+}
+.marital{
+    padding-top: 10px;
+}
+.city{
+    padding-top: 10px;
+}
+.contact{
+    padding-top: 10px;
+    font-weight: bold;
+}
+.sp{
+    letter-spacing: 2px;
+    padding-bottom: 5px;
+}
+.llanguage{
+    padding-top: 10px;
+}
+.el{
+    padding-top: 5px;
+}
+.planguage{
+    padding-top: 10px;
+}
+.lmtr{
+    display: flex;
+}
+.mtr{
+    padding-left: 10px;
+}
+.hobby{
+    padding-top: 10px;
+}
+.name{
+    padding-top: 20px;
+}
+.webdev{
+    letter-spacing: 4px;
+    font-size: 15px;
+}
+.detail{
+    padding-top: 20px;
+    text-align: justify;
+}
+.education{
+    padding-top: 20px;
+}
+.experience{
+    padding-top: 10px;
+    text-align: justify;
+}
+.project{
+    padding-top: 10px;
+    text-align: justify;
+}
+.head{
+    height: 100px;
+    background: url(image//head.jpg);
+}
+.icon{
+    width: 200px;
+    float: left;
+    height: 70px;
+}
+.logo{
+    color: #ff7200;
+    font-size: 37px;
+    font-family: Arial;
+    margin-left: 5px;
+    margin-top: 13px;
+}
+.search{
+    float: left;
+    width: 330px;
+    margin-left: 350px;
+}    
+.sear{
+    height: 40px;
+    width: 200px;
+    font-family: 'Times New Roman';
+    background: transparent;
+    border: 1px solid #ff7200;
+    margin-top: 13px; 
+    color: white;
+    border-right: none;
+    font-size: 16px;
+    float: left;
+    padding: 10px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;   
+}
+.btn{
+    width: 100px;
+    height: 40px;
+    background: #ff7200;
+    border: 2px solid #ff7200;
+    margin-top: 13px;
+    color: #fff;
+    font-size: 15px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.btn:focus{
+    outline: none;
+}
+.sear:focus{
+    outline: none;
+}
+.menu{
+    float: left;
+    width: 400px;
+    height: 70;
+}
+.btns{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 250px;
+    margin-top: 26px;
+    list-style: none;
+}
+.btns li a{
+    text-decoration: none;
+    margin-left: 60px;
+    margin-top: 25px;
+    font-size: 17px;
+    font-family: arial;
+    font-weight: bold;
+    color: white;
+}
+.btns li a:hover{
+    color: #ff7200;
+}
